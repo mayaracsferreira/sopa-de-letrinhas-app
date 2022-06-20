@@ -14,6 +14,12 @@
         android:theme="@style/Theme.SopaDeLetrinhasApp"
         tools:targetApi="31">
         <activity
+            android:name=".moduleone.ModuleOneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".moduletwo.ModuleTwoActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

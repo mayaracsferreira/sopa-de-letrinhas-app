@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_module_one"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".moduleone.ModuleOneActivity">
+
+    <Button
+        android:id="@+id/btn_module_one_calendar_ex1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/purple_200"
+        android:text="@string/current_day_of_month" />
+
+    <Button
+        android:id="@+id/btn_module_one_calendar_ex2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/purple_200"
+        android:text="@string/current_week" />
+
+    <Button
+        android:id="@+id/btn_module_one_counting_ex1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/purple_500"
+        android:text="@string/complete_the_list" />
+
+    <Button
+        android:id="@+id/btn_module_one_counting_ex2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/purple_500"
+        android:text="@string/distinct_digit_list" />
+</LinearLayout>

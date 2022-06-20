@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_module_two"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".moduletwo.ModuleTwoActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_module_two_calendar_ex1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/current_month" />
+
+    <Button
+        android:id="@+id/btn_module_two_calendar_ex2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/current_month_name_and_number" />
+
+    <Button
+        android:id="@+id/btn_module_two_counting_ex1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/divisible_by_two" />
+
+    <Button
+        android:id="@+id/btn_module_two_counting_ex2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/is_sorted" />
+
+</LinearLayout>
