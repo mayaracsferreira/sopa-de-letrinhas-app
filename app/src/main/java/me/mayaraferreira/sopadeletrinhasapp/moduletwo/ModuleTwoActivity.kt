@@ -4,10 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import me.mayaraferreira.sopadeletrinhasapp.R
-import me.mayaraferreira.sopadeletrinhasapp.moduleone.calendarexercises.currentdayofmonth.IsCurrentDayOfMonth
-import me.mayaraferreira.sopadeletrinhasapp.moduleone.calendarexercises.currentweek.IsCurrentWeek
-import me.mayaraferreira.sopadeletrinhasapp.moduleone.countingexercises.completethelist.CompleteTheListFragment
-import me.mayaraferreira.sopadeletrinhasapp.moduleone.countingexercises.distinctdigitlist.IsDistinctDigitList
 import me.mayaraferreira.sopadeletrinhasapp.moduletwo.calendarexercises.currentmonth.IsCurrentMonth
 import me.mayaraferreira.sopadeletrinhasapp.moduletwo.calendarexercises.monthnameandnumber.IsCurrentMonthNameAndNumber
 import me.mayaraferreira.sopadeletrinhasapp.moduletwo.countingexercises.divisibleby.IsDivisibleBy

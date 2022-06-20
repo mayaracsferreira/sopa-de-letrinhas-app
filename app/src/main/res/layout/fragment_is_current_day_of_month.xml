@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".moduleone.calendarexercises.currentdayofmonth.IsCurrentDayOfMonth">
+    android:background="@color/white"
+    tools:context=".moduleone.calendarexercises.currentdayofmonth.IsCurrentDayOfMonthFragment">
 
     <TextView
         android:id="@+id/txt_input_current_day_of_month"
@@ -29,11 +30,23 @@
 
     <Button
         android:id="@+id/btn_current_day_of_month_submit"
-        android:text="@string/submit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/submit_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_correct"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_check"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="invisible"
+        app:tint="@color/teal_200" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
