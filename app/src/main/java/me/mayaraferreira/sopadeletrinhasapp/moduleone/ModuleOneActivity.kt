@@ -39,19 +39,19 @@ class ModuleOneActivity : AppCompatActivity() {
 
     private fun navigateToCurrentWeekExercise() {
         supportFragmentManager.beginTransaction().apply {
-            add(R.id.linear_module_one, IsCurrentWeek())
+            add(android.R.id.content, IsCurrentWeek())
         }.commit()
     }
 
     private fun navigateToCompleteTheListExercise() {
         supportFragmentManager.beginTransaction().apply {
-            add(R.id.linear_module_one, CompleteTheListFragment())
+            add(android.R.id.content, CompleteTheListFragment())
         }.commit()
     }
 
     private fun navigateToIsDistinctDigitExercise() {
         supportFragmentManager.beginTransaction().apply {
-            add(R.id.linear_module_one, IsDistinctDigitList())
+            add(android.R.id.content, IsDistinctDigitList())
         }.commit()
     }
 }

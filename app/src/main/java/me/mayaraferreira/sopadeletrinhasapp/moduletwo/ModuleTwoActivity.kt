@@ -33,25 +33,25 @@ class ModuleTwoActivity : AppCompatActivity() {
 
     private fun navigateToCurrentMonthExercise() {
         supportFragmentManager.beginTransaction().apply {
-            add(R.id.linear_module_two, IsCurrentMonth())
+            add(android.R.id.content, IsCurrentMonth())
         }.commit()
     }
 
     private fun navigateToCurrentMonthNameAndNumberExercise() {
         supportFragmentManager.beginTransaction().apply {
-            add(R.id.linear_module_two, IsCurrentMonthNameAndNumber())
+            add(android.R.id.content, IsCurrentMonthNameAndNumber())
         }.commit()
     }
 
     private fun navigateToDivisibleByExercise() {
         supportFragmentManager.beginTransaction().apply {
-            add(R.id.linear_module_two, IsDivisibleBy())
+            add(android.R.id.content, IsDivisibleBy())
         }.commit()
     }
 
     private fun navigateToIsSortedExercise() {
         supportFragmentManager.beginTransaction().apply {
-            add(R.id.linear_module_two, IsSorted())
+            add(android.R.id.content, IsSorted())
         }.commit()
     }
 }

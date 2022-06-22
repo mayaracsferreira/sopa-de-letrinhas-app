@@ -16,4 +16,12 @@
     <string name="is_sorted">Escreva os números do menor para o maior</string>
     <string name="txt_current_day_of_month">Digite o dia de hoje no campo a seguir:</string>
     <string name="submit_button">Enviar</string>
+    <string name="txt_current_week">Digite os números dos dias da semana atual que começou no domingo e acaba no sábado:</string>
+    <string name="hint_sunday">Domingo</string>
+    <string name="hint_monday">Segunda-feira</string>
+    <string name="hint_tuesday">Terça-feira</string>
+    <string name="hint_wednesday">Quarta-feira</string>
+    <string name="hint_thursday">Quinta-feira</string>
+    <string name="hint_friday">Sexra--feira</string>
+    <string name="hint_saturday">Sábado</string>
 </resources>

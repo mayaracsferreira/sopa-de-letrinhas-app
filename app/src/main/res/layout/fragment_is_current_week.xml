@@ -1,14 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
     tools:context=".moduleone.calendarexercises.currentweek.IsCurrentWeek">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/txt_current_week_intro"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:text="@string/txt_current_week"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/edt_current_week_sunday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_margin="15dp"/>
 
-</FrameLayout>
+    <EditText
+        android:id="@+id/edt_current_week_sunday"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_sunday"
+        android:inputType="number"
+        android:nextFocusDown="@id/edt_current_week_monday"/>
+
+    <EditText
+        android:id="@+id/edt_current_week_monday"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_monday"
+        android:inputType="number"
+        android:nextFocusDown="@id/edt_current_week_tuesday"/>
+
+
+    <EditText
+        android:id="@+id/edt_current_week_tuesday"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_tuesday"
+        android:inputType="number"
+        android:nextFocusDown="@id/edt_current_week_wednesday"/>
+
+    <EditText
+        android:id="@+id/edt_current_week_wednesday"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_wednesday"
+        android:inputType="number"
+        android:nextFocusDown="@id/edt_current_week_thursday"/>
+
+    <EditText
+        android:id="@+id/edt_current_week_thursday"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_thursday"
+        android:inputType="number"
+        android:nextFocusDown="@id/edt_current_week_friday"/>
+
+    <EditText
+        android:id="@+id/edt_current_week_friday"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_friday"
+        android:inputType="number"
+        android:nextFocusDown="@id/edt_current_week_saturday"/>
+
+    <EditText
+        android:id="@+id/edt_current_week_saturday"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_saturday"
+        android:inputType="number"
+        android:nextFocusDown="@id/btn_current_week_submit"/>
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="edt_current_week_sunday,edt_current_week_monday,edt_current_week_tuesday,edt_current_week_wednesday,edt_current_week_thursday,edt_current_week_friday,edt_current_week_saturday"
+        app:flow_horizontalGap="10dp"
+        app:flow_horizontalStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_current_week_intro"
+        app:layout_constraintBottom_toTopOf="@id/btn_current_week_submit"
+
+        app:flow_wrapMode="aligned"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_current_week_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="15dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

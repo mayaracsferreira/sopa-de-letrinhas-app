@@ -1,12 +1,9 @@
 package me.mayaraferreira.sopadeletrinhasapp.moduleone.calendarexercises.currentdayofmonth
 
-import android.graphics.drawable.AnimationDrawable
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.animation.AlphaAnimation
-import android.view.animation.Animation
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
@@ -51,9 +48,7 @@ class IsCurrentDayOfMonthFragment : Fragment() {
 
         val result = viewModel.checkAnswer(currentDay)
 
-        val answerText = if (result) "CORRETO!" else "INCORRETO =("
+        val answerText = if (result) "CORRETO" else "INCORRETO"
         Toast.makeText(context, answerText, Toast.LENGTH_SHORT).show()
-
-        view?.findViewById<ImageView>(R.id.img_correct)?.visibility = if (result) View.VISIBLE else View.INVISIBLE
     }
 }
