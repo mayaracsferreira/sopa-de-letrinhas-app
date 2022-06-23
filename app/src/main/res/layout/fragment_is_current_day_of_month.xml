@@ -11,6 +11,7 @@
         android:id="@+id/txt_input_current_day_of_month"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="15dp"
         android:text="@string/txt_current_day_of_month"
         app:layout_constraintBottom_toTopOf="@+id/edt_current_day_of_month"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,8 +21,9 @@
 
     <EditText
         android:id="@+id/edt_current_day_of_month"
-        android:layout_width="100dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:hint="@string/hint_number_type"
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/btn_current_day_of_month_submit"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,21 +34,10 @@
         android:id="@+id/btn_current_day_of_month_submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="15dp"
         android:text="@string/submit_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-   <!-- <ImageView
-        android:id="@+id/img_correct"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/ic_check"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:visibility="invisible"
-        app:tint="@color/teal_200" />
--->
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,27 +1,35 @@
 <resources>
-    <string name="app_name">SopaDeLetrinhasApp</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="module_one">Primeiro ano</string>
-    <string name="module_two">Segundo ano</string>
+
+    <!-- Project and sections-->
+    <string name="app_name">SopaDeLetrinhasApp</string>
+    <string name="module_one">Atividades do primeiro ano</string>
+    <string name="module_two">Atividades do segundo ano</string>
     <string name="calendar_exercises">Atividades com datas</string>
     <string name="counting_exercises">Atividades com números</string>
-    <string name="current_day_of_month">Que dia é hoje?</string>
-    <string name="current_week">Dias da semana</string>
+    <string name="current_day_of_month">Exercício 1: dia do mês</string>
+    <string name="current_week">Exercício 2: calendário da semana</string>
+
+    <!-- Edit text exercises -->
+    <string name="txt_current_day_of_month">Que dia do mês é hoje?</string>
+    <string name="txt_current_week">Escreva os dias do mês da semana atual:</string>
     <string name="complete_the_list">Complete a lista com números faltantes</string>
     <string name="distinct_digit_list">Não repita os números</string>
     <string name="current_month">Em qual mês estamos?</string>
     <string name="current_month_name_and_number">Qual o nome e número do mês?</string>
     <string name="divisible_by_two">Escreva números pares</string>
     <string name="is_sorted">Escreva os números do menor para o maior</string>
-    <string name="txt_current_day_of_month">Digite o dia de hoje no campo a seguir:</string>
     <string name="submit_button">Enviar</string>
-    <string name="txt_current_week">Digite os números dos dias da semana atual que começou no domingo e acaba no sábado:</string>
+
+    <!-- Days of week hints-->
     <string name="hint_sunday">Domingo</string>
     <string name="hint_monday">Segunda-feira</string>
     <string name="hint_tuesday">Terça-feira</string>
     <string name="hint_wednesday">Quarta-feira</string>
     <string name="hint_thursday">Quinta-feira</string>
-    <string name="hint_friday">Sexra--feira</string>
+    <string name="hint_friday">Sexra-feira</string>
     <string name="hint_saturday">Sábado</string>
+
+    <!-- Hints -->
+    <string name="hint_number_type">Insira um número</string>
 </resources>

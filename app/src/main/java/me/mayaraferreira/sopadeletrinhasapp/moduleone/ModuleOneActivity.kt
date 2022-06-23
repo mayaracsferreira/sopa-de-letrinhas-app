@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import me.mayaraferreira.sopadeletrinhasapp.R
 import me.mayaraferreira.sopadeletrinhasapp.moduleone.calendarexercises.currentdayofmonth.IsCurrentDayOfMonthFragment
-import me.mayaraferreira.sopadeletrinhasapp.moduleone.calendarexercises.currentweek.IsCurrentWeek
+import me.mayaraferreira.sopadeletrinhasapp.moduleone.calendarexercises.currentweek.IsCurrentWeekFragment
 import me.mayaraferreira.sopadeletrinhasapp.moduleone.countingexercises.completethelist.CompleteTheListFragment
 import me.mayaraferreira.sopadeletrinhasapp.moduleone.countingexercises.distinctdigitlist.IsDistinctDigitList
 
@@ -39,7 +39,7 @@ class ModuleOneActivity : AppCompatActivity() {
 
     private fun navigateToCurrentWeekExercise() {
         supportFragmentManager.beginTransaction().apply {
-            add(android.R.id.content, IsCurrentWeek())
+            add(android.R.id.content, IsCurrentWeekFragment())
         }.commit()
     }
 
