@@ -9,7 +9,7 @@
     tools:context=".moduleone.calendarexercises.currentweek.IsCurrentWeekFragment">
 
     <TextView
-        android:id="@+id/txt_current_week_intro"
+        android:id="@+id/txt_current_week"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
@@ -89,9 +89,8 @@
         app:flow_wrapMode="aligned"
         app:layout_constraintBottom_toTopOf="@id/btn_current_week_submit"
         app:layout_constraintEnd_toEndOf="parent"
-
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_current_week_intro" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_current_week" />
 
     <Button
         android:id="@+id/btn_current_week_submit"
