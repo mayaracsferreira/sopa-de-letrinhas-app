@@ -7,7 +7,7 @@ import me.mayaraferreira.sopadeletrinhasapp.R
 import me.mayaraferreira.sopadeletrinhasapp.moduleone.calendarexercises.currentdayofmonth.IsCurrentDayOfMonthFragment
 import me.mayaraferreira.sopadeletrinhasapp.moduleone.calendarexercises.currentweek.IsCurrentWeekFragment
 import me.mayaraferreira.sopadeletrinhasapp.moduleone.countingexercises.completethelist.CompleteTheListFragment
-import me.mayaraferreira.sopadeletrinhasapp.moduleone.countingexercises.distinctdigitlist.IsDistinctDigitList
+import me.mayaraferreira.sopadeletrinhasapp.moduleone.countingexercises.distinctdigitlist.HasDistinctDigitsFragment
 
 class ModuleOneActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -51,7 +51,7 @@ class ModuleOneActivity : AppCompatActivity() {
 
     private fun navigateToIsDistinctDigitExercise() {
         supportFragmentManager.beginTransaction().apply {
-            add(android.R.id.content, IsDistinctDigitList())
+            add(android.R.id.content, HasDistinctDigitsFragment())
         }.commit()
     }
 }
