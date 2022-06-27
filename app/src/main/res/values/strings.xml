@@ -1,3 +1,56 @@
 <resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Project and sections-->
     <string name="app_name">SopaDeLetrinhasApp</string>
+    <string name="module_one">Atividades do primeiro ano</string>
+    <string name="module_two">Atividades do segundo ano</string>
+    <string name="calendar_exercises">Atividades com datas</string>
+    <string name="counting_exercises">Atividades com números</string>
+    <string name="current_day_of_month">Exercício 1: dia do mês</string>
+    <string name="current_week">Exercício 2: calendário da semana</string>
+    <string name="complete_the_list">Exercício 3: complete os números que faltam</string>
+    <string name="distinct_digit_list">Exercício 4: números repetidos</string>
+
+    <!-- Edit text exercises -->
+    <string name="txt_current_day_of_month">Que dia do mês é hoje?</string>
+    <string name="txt_current_week">Escreva os dias do mês da semana atual:</string>
+    <string name="txt_complete_the_list">Alguns números estão faltando na lista. Vamos escrevê-los em ordem?</string>
+    <string name="txt_distinct_digit_list">Selecione o número que não possui dígito repetido:</string>
+    <string name="current_month">Em qual mês estamos?</string>
+    <string name="current_month_name_and_number">Qual o nome e número do mês?</string>
+    <string name="divisible_by_two">Escreva números pares</string>
+    <string name="is_sorted">Escreva os números do menor para o maior</string>
+    <string name="submit_button">Enviar</string>
+
+    <!-- Days of week hints-->
+    <string name="hint_sunday">Domingo</string>
+    <string name="hint_monday">Segunda-feira</string>
+    <string name="hint_tuesday">Terça-feira</string>
+    <string name="hint_wednesday">Quarta-feira</string>
+    <string name="hint_thursday">Quinta-feira</string>
+    <string name="hint_friday">Sexra-feira</string>
+    <string name="hint_saturday">Sábado</string>
+
+    <!-- Hints -->
+    <string name="hint_number_type">Insira um número</string>
+
+    <!-- Numbers ordinal-->
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="ten">10</string>
+
+    <string name="phone_number1">99345712</string>
+    <string name="phone_number2">97654381</string>
+    <string name="phone_number3">99111334</string>
+    <string name="phone_number4">99030506</string>
+    <string name="phone_number5">38705969</string>
+
 </resources>
